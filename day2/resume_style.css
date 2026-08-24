@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f6f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: left;
+    background: #776d6a;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+main {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px;
+}
+
+section {
+    background: black;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+form {
+    display: flex;
+}
+
+input, button {
+    padding: 12px;
+}
+
+button {
+    background: black;
+    color: white;
+    border: none;
+}
